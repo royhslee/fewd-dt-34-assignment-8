@@ -27,9 +27,44 @@
 		</header>
 		<section id="main">
 			<div class="container">
+				<form id="new-post">
+					<h2>Register Now!</h2>
+					<div>
+					<label for="name">Name:</label> 
+						<input type="text" id="name" class="control" placeholder="jone Doe" name="name">
+					</div>
+					<div>	
+					<label for="email">Email:</label>
+						<input type="email" id="email" class="control" placeholder="hello@gmail.com" name="email" >
+					</div>
+					<div>
+					<label for="phone">Phone:</label>
+						<input type="phone" id="phone" class="control" placeholder="415-123-4567" name="phone" >
+					</div>
+					<div>
+					<label for="state">State:</label>
+						<select id="state" class="control" name="state" ></select> 
+					</div>
+					<div>
+					<label for="password">Password:</label>
+						<input type="password" id="password" class="control" name="password"  >
+					</div>
+					<div class="radioDiv" >
+					<label for="select">Which service are you interested in?</label>
+						<input type="radio" id="select" name="relaxing"> Relaxing
+						<input type="radio" id="select" name="emailRadio"> Email
+						<input type="radio" id="select" name="phoneRadio"> Phone
+					</div>
+					<div class="checkbox">
+					<input type="checkbox" name="checkbox" ><label for="checkbox"> I agree to the terms
+					</label>
+				</div>
 				<section id="contact">
-					<input type="submit" value="Register Now!">
+					<input type="submit" value="Register Now!" id="button" class="contact blue" ></input>
+				
 				</section>
+				</form> 
+			
 			</div>
 		</section>
 
@@ -43,5 +78,12 @@
 
 			<p class="copyright">Copyright 2015. Relaxr.</p>
 		</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
+
+
+	
+	<script type="text/javascript" src="js/script.js"></script>
+
 	</body>
 </html>
